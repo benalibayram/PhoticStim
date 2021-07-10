@@ -253,7 +253,7 @@ UINT ThreadProcdaq(LPVOID param)
 			//DAQmxErrChk(DAQmxStartTask(taskHandleEEGmarker));
 			//sync awaiting(120sn), in order to send EEGmarker signal
 			//DAQmxErrChk(DAQmxWaitUntilTaskDone(taskHandleEEGmarker, 120.0));
-			// for testing, use sleep instead of MR sync signal.
+			// for testing, use sleep instead of MR sync signal. 
 			Sleep(1000);
 
 			if (bloksyncind == 0)
