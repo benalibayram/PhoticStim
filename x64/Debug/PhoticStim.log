@@ -1,0 +1,15 @@
+﻿PhoticStimDlg.obj : error LNK2019: unresolved external symbol DAQmxCreateTask referenced in function "unsigned int __cdecl ThreadProcdaq(void *)" (?ThreadProcdaq@@YAIPEAX@Z)
+PhoticStimDlg.obj : error LNK2019: unresolved external symbol DAQmxStartTask referenced in function "unsigned int __cdecl ThreadProcdaq(void *)" (?ThreadProcdaq@@YAIPEAX@Z)
+PhoticStimDlg.obj : error LNK2019: unresolved external symbol DAQmxStopTask referenced in function "unsigned int __cdecl ThreadProcdaq(void *)" (?ThreadProcdaq@@YAIPEAX@Z)
+PhoticStimDlg.obj : error LNK2019: unresolved external symbol DAQmxClearTask referenced in function "unsigned int __cdecl ThreadProcdaq(void *)" (?ThreadProcdaq@@YAIPEAX@Z)
+PhoticStimDlg.obj : error LNK2019: unresolved external symbol DAQmxWaitUntilTaskDone referenced in function "unsigned int __cdecl ThreadProcdaq(void *)" (?ThreadProcdaq@@YAIPEAX@Z)
+PhoticStimDlg.obj : error LNK2019: unresolved external symbol DAQmxCreateAOVoltageChan referenced in function "unsigned int __cdecl ThreadProcdaq(void *)" (?ThreadProcdaq@@YAIPEAX@Z)
+PhoticStimDlg.obj : error LNK2019: unresolved external symbol DAQmxCreateCOPulseChanFreq referenced in function "unsigned int __cdecl ThreadProcdaq(void *)" (?ThreadProcdaq@@YAIPEAX@Z)
+PhoticStimDlg.obj : error LNK2019: unresolved external symbol DAQmxCfgSampClkTiming referenced in function "unsigned int __cdecl ThreadProcdaq(void *)" (?ThreadProcdaq@@YAIPEAX@Z)
+PhoticStimDlg.obj : error LNK2019: unresolved external symbol DAQmxCfgImplicitTiming referenced in function "unsigned int __cdecl ThreadProcdaq(void *)" (?ThreadProcdaq@@YAIPEAX@Z)
+PhoticStimDlg.obj : error LNK2019: unresolved external symbol DAQmxCfgDigEdgeStartTrig referenced in function "unsigned int __cdecl ThreadProcdaq(void *)" (?ThreadProcdaq@@YAIPEAX@Z)
+PhoticStimDlg.obj : error LNK2019: unresolved external symbol DAQmxWriteAnalogF64 referenced in function "unsigned int __cdecl ThreadProcdaq(void *)" (?ThreadProcdaq@@YAIPEAX@Z)
+PhoticStimDlg.obj : error LNK2019: unresolved external symbol DAQmxGetExtendedErrorInfo referenced in function "unsigned int __cdecl ThreadProcdaq(void *)" (?ThreadProcdaq@@YAIPEAX@Z)
+C:\Program Files (x86)\National Instruments\NI-DAQ\DAQmx ANSI C Dev\lib\msvc\NIDAQmx.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+..\..\..\..\..\..\..\Program Files (x86)\National Instruments\NI-DAQ\DAQmx ANSI C Dev\lib\msvc\NIDAQmx.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\benal\documents\visual studio 2015\Projects\PhoticStim\x64\Debug\PhoticStim.exe : fatal error LNK1120: 12 unresolved externals
